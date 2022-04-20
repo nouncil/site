@@ -1,0 +1,18 @@
+## This rule redirects to an external API, signing requests with a secret
+[[redirects]]
+  from = "/governance"
+  to = "https://docs.google.com/document/d/1Qsx5pXqKzEXWP1KzKD6vZyDgoPbKQXwScTQfEUI17Ek"
+  status = 302
+  force = true 
+
+[[redirects]]
+  from = "/gov"
+  to = "https://docs.google.com/document/d/1Qsx5pXqKzEXWP1KzKD6vZyDgoPbKQXwScTQfEUI17Ek"
+  status = 302
+  force = true 
+
+[[redirects]]
+  from = "/delegate"
+  to = "https://docs.google.com/document/d/1MDYV56Lmm_qd18O7hQLYD3gTZoISzm0ZpONGbK7Gp-Q/edit"
+  status = 302
+  force = true 
